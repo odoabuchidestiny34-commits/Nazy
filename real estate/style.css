@@ -1,0 +1,36 @@
+
+    
+  *{background-image: url(images%20.jpeg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+    background-size: cover;
+    animation: changeState;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: 4s;
+    animation-iteration-count: 4;
+    
+    }
+@keyframes changeState{
+    from{
+        background-image: url(images%204.jpeg);
+        right: 30%;
+    }
+    left{
+        10%;
+    }
+}
+@media (min-width:768px){
+    .container{
+        font-size: 20px;
+        
+    }
+}
+
+@media (min-width:768px){
+    .container-fluid{
+        font-size: 20px;
+        
+    }
+}
+  
